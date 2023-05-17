@@ -1,36 +1,24 @@
-macro_quotes: macro_quotes{
+macro_right_app: macro_right_app{
 compatible = "zmk,behavior-macro";
-label = "macro_quotes";
+label = "macro_right_app";
 #binding-cells = <0>;
-bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp RIGHT_ARROW>;
 };
-macro_dquotes: macro_dquotes{
+macro_left_app: macro_left_app{
 compatible = "zmk,behavior-macro";
-label = "macro_dquotes";
+label = "macro_left_app";
 #binding-cells = <0>;
-bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LEFT_ARROW>;
 };
-macro_braces: macro_braces{
+macro_right_desktop: macro_right_desktop{
 compatible = "zmk,behavior-macro";
-label = "macro_braces";
+label = "macro_right_desktop";
 #binding-cells = <0>;
-bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp RIGHT_ARROW>;
 };
-macro_parens: macro_parens{
+macro_left_desktop: macro_left_desktop{
 compatible = "zmk,behavior-macro";
-label = "macro_parens";
+label = "macro_left_desktop";
 #binding-cells = <0>;
-bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-};
-macro_brackets: macro_brackets{
-compatible = "zmk,behavior-macro";
-label = "macro_brackets";
-#binding-cells = <0>;
-bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-};
-macro_kinesis: macro_kinesis{
-compatible = "zmk,behavior-macro";
-label = "macro_kinesis";
-#binding-cells = <0>;
-bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_ARROW>;
 };
