@@ -2,19 +2,19 @@ macro_right_app: macro_right_app{
 compatible = "zmk,behavior-macro";
 label = "macro_right_app";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp RIGHT_ARROW>;
+bindings = <&kt LCTRL>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>, <&kp RIGHT_ARROW>, <&kt LCTRL>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>;
 };
 macro_left_app: macro_left_app{
 compatible = "zmk,behavior-macro";
 label = "macro_left_app";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LEFT_ARROW>;
+bindings = <&kt LCTRL>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>, <&kp LEFT_ARROW>, <&kt LCTRL>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>;
 };
 macro_right_desktop: macro_right_desktop{
 compatible = "zmk,behavior-macro";
 label = "macro_right_desktop";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LEFT_ALT>, <&kp RIGHT_ARROW>;
+bindings = <&kt LCTRL>, <&kt LEFT_ALT>, <&kp RIGHT_ARROW>, <&kt LCTRL>, <&kt LEFT_ALT>;
 };
 macro_left_desktop: macro_left_desktop{
 compatible = "zmk,behavior-macro";
